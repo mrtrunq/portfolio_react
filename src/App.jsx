@@ -9,7 +9,7 @@ function App() {
             <Toaster />
             <BrowserRouter>
                 <Routes>
-                    <Route index element={<Home />} />
+                    <Route path="/portfolio_frontend_react" element={<Home />} />
                     <Route path="*" element={<NotFound />} />
                 </Routes>
             </BrowserRouter>

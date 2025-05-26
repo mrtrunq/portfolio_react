@@ -14,7 +14,7 @@ export const ContactSection = () => {
 
         setTimeout(() => {
             toast({
-                title: "Message sent!",
+                title: "Tin nhắn đã gửi",
                 description: "Cảm ơn tin nhắn của bạn. Tôi sẽ sớm liên lạc lại với bạn",
             });
             setIsSubmitting(false);
