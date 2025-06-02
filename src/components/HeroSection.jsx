@@ -4,7 +4,7 @@ export const HeroSection = () => {
             <div className="max-w-4xl mx-auto text-center z-10">
                 <div className="space-y-6">
                     <h1 className="text-4xl md:text-6xl font-bold tracking-tight">
-                        <span className="opacity-0 animate-fade-in">Chào, Tôi là</span>
+                        <span className="opacity-0 animate-fade-in">Xin chào, Tôi là</span>
                         <span className="text-primary opacity-0 animate-fade-in-delay-1"> Trung</span>
                         <span className="text-gradient ml-2 opacity-0 animate-fade-in-delay-2"> Hoàng</span>
                     </h1>
