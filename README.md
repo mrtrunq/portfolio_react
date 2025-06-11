@@ -1,3 +1,7 @@
-# Trung's Portfolio
+## <div align="center"><a href="https://mrtrunq.github.io/portfolio_react">Trung's Portfolio</a></div>
 
--   Giới thiệu một số thông tin cơ bản để xin việc
+<img src="./public/readme_view.jpg" alt="readme_view" align="center">
+
+### Techstacks
+
+<img src="https://skillicons.dev/icons?i=react,tailwind" />
