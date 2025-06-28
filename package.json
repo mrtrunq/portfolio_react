@@ -1,6 +1,5 @@
 {
-    "name": "portfolio_frontend_react",
-    "homepage": "https://mrtrunq.github.io/portfolio_react",
+    "name": "portfolio_react",
     "private": true,
     "version": "0.0.0",
     "type": "module",
@@ -33,6 +32,8 @@
         "eslint-plugin-react-hooks": "^5.2.0",
         "eslint-plugin-react-refresh": "^0.4.19",
         "globals": "^16.0.0",
+        "prettier": "^3.5.3",
+        "prettier-plugin-tailwindcss": "^0.6.13",
         "vite": "^6.3.5"
     }
 }

@@ -32,28 +32,28 @@ const projects = [
 
 export const ProjectsSection = () => {
     return (
-        <section id="projects" className="py-24 px-4 relative">
+        <section id="projects" className="relative px-4 py-24">
             <div className="container mx-auto max-w-5xl">
-                <h2 className="text-3xl md:text-4xl font-bold mb-4 text-center">
+                <h2 className="mb-4 text-center text-3xl font-bold md:text-4xl">
                     Dự Án <span className="text-primary">Nổi Bật</span>
                 </h2>
-                <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">Đây là một số dự án gần đây của tôi, mỗi dự án được thiết kế chi tiết, chú ý đến trải nghiệm của người dùng</p>
+                <p className="text-muted-foreground mx-auto mb-12 max-w-2xl text-center">Đây là một số dự án gần đây của tôi, mỗi dự án được thiết kế chi tiết, chú ý đến trải nghiệm của người dùng</p>
 
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
                     {projects.map((project, key) => (
-                        <div key={key} className="group bg-card rounded-lg overflow-hidden shadow-xs card-hover">
-                            <div className="h-48 overflow-hidden ">
-                                <img src={project.image} alt={project.title} className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" />
+                        <div key={key} className="group bg-card card-hover overflow-hidden rounded-lg shadow-xs">
+                            <div className="h-48 overflow-hidden">
+                                <img src={project.image} alt={project.title} className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-110" />
                             </div>
                             <div className="p-6">
-                                <div className="flex flex-wrap gap-2 mb-4">
+                                <div className="mb-4 flex flex-wrap gap-2">
                                     {project.tags.map((tag) => (
-                                        <span className="px-2 py-1 text-xs font-medium border rounded-full bg-primary/20 text-secondary-foreground">{tag}</span>
+                                        <span className="bg-primary/20 text-secondary-foreground rounded-full border px-2 py-1 text-xs font-medium">{tag}</span>
                                     ))}
                                 </div>
-                                <h3 className="text-xl font-semibold mb-2">{project.title}</h3>
-                                <p className="text-muted-foreground text-sm mb-4">{project.description}</p>
-                                <div className="flex justify-between items-center">
+                                <h3 className="mb-2 text-xl font-semibold">{project.title}</h3>
+                                <p className="text-muted-foreground mb-4 text-sm">{project.description}</p>
+                                <div className="flex items-center justify-between">
                                     <div className="flex space-x-3">
                                         <a href={project.demoUrl} className="text-foreground/80 hover:text-primary transition-colors duration-300" target="_bank">
                                             <ExternalLink size={20} />
@@ -68,8 +68,8 @@ export const ProjectsSection = () => {
                     ))}
                 </div>
 
-                <div className="text-center mt-12">
-                    <a href="https://github.com/mrtrunq" className="cosmic-button w-fit flex items-center mx-auto gap-2" target="_blank">
+                <div className="mt-12 text-center">
+                    <a href="https://github.com/mrtrunq" className="cosmic-button mx-auto flex w-fit items-center gap-2" target="_blank">
                         Kiểm tra GitHub của tôi <ArrowRight size={16} />
                     </a>
                 </div>

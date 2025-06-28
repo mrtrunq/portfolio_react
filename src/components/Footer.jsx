@@ -2,9 +2,9 @@ import { ArrowUp } from "lucide-react";
 
 export const Footer = () => {
     return (
-        <footer className="py-12 px-4 bg-card relative border-t border-border pt-10 flex flex-wrap justify-between items-center">
-            <p className="text-sm text-muted-foreground ">&copy; {new Date().getFullYear()} Trung Hoang. All rights reserved</p>
-            <a href="#hero" className="p-2 rounded-full bg-primary/10 hover:bg-primary/20 text-primary transition-colors">
+        <footer className="bg-card border-border relative flex flex-wrap items-center justify-between border-t px-4 py-12 pt-10">
+            <p className="text-muted-foreground text-sm">&copy; {new Date().getFullYear()} Trung Hoang. All rights reserved</p>
+            <a href="#hero" className="bg-primary/10 hover:bg-primary/20 text-primary rounded-full p-2 transition-colors">
                 <ArrowUp size={20} />
             </a>
         </footer>
